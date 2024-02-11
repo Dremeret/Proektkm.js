@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <script src="./js/task1.js" defer></script>
+    <script src="./js/task2.js" defer></script>
+    <script src="./js/task3.js" defer></script> -->
+
+    <script src="./js/task5.js" defer></script>
+    <!-- <script src="./js/task6.js" defer></script> -->
+    <script src="./js/task7.js" defer></script>
+  </head>
+  <body>
+    <header class="white" id="themeMode">
+      <div class="logo"></div>
+      <nav>
+        <ul>
+          <li>Інтерактив</li>
+          <li>Наша команда</li>
+          <li>Контакти</li>
+        </ul>
+      </nav>
+
+      <div class="theme">
+        <label class="switch">
+          <input type="checkbox" id="btnSwitch" />
+          <span class="slider round"></span>
+        </label>
+        <p>Вітаємо, <span class="spanUser"></span></p>
+      </div>
+    </header>
+
+    <section>
+      <main class="container white" id="themeMode">
+        <div class="divmain">
+          <h2 class="h2">Популярні інетрактивні ігри</h2>
+          <hr class="hr1" />
+          <h3 class="h3">Перевір в який рік ти народився</h3>
+          <input
+            type="text"
+            placeholder="   Введіть свій рік народження"
+            class="input"
+          />
+          <img src="./img/icon/icon-search.png" alt="" class="search" />
+          <p class="p1"></p>
+          <hr class="hr2" />
+        </div>
+        <!-- 2 -->
+        <div class="divnemain">
+          <h4 class="h4">Вгадай число, яке загадав комп’ютер</h4>
+
+          <input type="text" placeholder=" Введіть число" class="input2" />
+          <img src="./img/icon/icon-search.png" alt="" class="search2" />
+          <p class="p2"></p>
+        </div>
+        <!-- 3 -->
+        <div class="stoneScissorsPapier">
+          <h3 class="stoneScissorsPapierName">Камінь - ножиці - папір</h3>
+          <div class="stoneScissorsPapierFunctions">
+            <div class="stoneScissorsPapierGameDiv">
+              <div class="stoneScissorsPapierBtnDiv">
+                <button class="stoneBtn">
+                  <img src="./img/icon/rock.png" alt="" />
+                </button>
+                <button class="scrissorsBtn">
+                  <img src="./img/icon/paper.png" alt="" />
+                </button>
+                <button class="papierBtn">
+                  <img src="./img/icon/scissors.png" alt="" />
+                </button>
+              </div>
+              <p class="stoneScissorsPapierResult">Результати раунду.</p>
+              <button class="stoneScissorsPapierShowResult">
+                Варіант комп’ютера
+              </button>
+            </div>
+
+            <li class="stoneScissorsPapierScoreLi">
+              <p class="stoneScissorsPapierScore">Рахунок:</p>
+              <p class="stoneScissorsPapierPlayerScore">Ви - 0</p>
+              <p class="stoneScissorsPapierComputerScore">Комп’ютер - 0</p>
+            </li>
+          </div>
+        </div>
+        <!-- <div class="hr3"></div>  -->
+        <!-- 4 -->
+        <div class="calculator">
+          <h3 class="calculatorName">Калькулятор</h3>
+          <div class="calculatorFunctions">
+            <input
+              type="number"
+              placeholder="Введіть число"
+              class="calculatorNumber1"
+            />
+            <div class="calculatorOperators">
+              <button class="calculatorAddition">+</button>
+              <button class="calculatorDifference">-</button>
+              <button class="calculatorProduct">*</button>
+              <button class="calculatorDenominator">/</button>
+            </div>
+            <input
+              type="number"
+              placeholder="Введіть число"
+              class="calculatorNumber2"
+            />
+            <p class="calculatorEqual">=</p>
+            <p class="calculatorResult">Результат</p>
+          </div>
+        </div>
+        <div class="hr4"></div>
+
+        <!-- 5 -->
+
+        <div class="timeCalculator">
+          <h3 class="timeCalculatorName">Калькулятор часу</h3>
+          <div class="timeCalculatorFunctions">
+            <div class="timeCalculatorSearchDiv">
+              <input
+                type="number"
+                class="timeCalculatorNumber"
+                placeholder="Введіть число"
+              />
+              <button class="timeCalculatorButtonSearch">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+            <div class="timeCalculatorLine"></div>
+            <p class="timeCalculatorResult">0 дн. 0:0:0</p>
+          </div>
+        </div>
+        <div class="hr5"></div>
+
+        <!-- dino  -->
+        <h5 class="h5">Google динозавр</h5>
+        <img src="./img/dino/ground.png" alt="" class="dinoroad" />
+        <img src="./img/dino/cactus_1.png" alt="" class="cactus" />
+        <img src="./img/dino/dino_run1.png" alt="" class="Dino" />
+        <button id="stopButton">ON/OFF</button>
+        <div class="hr-dino"></div>
+
+        <!-- football  -->
+
+        <div class="football">
+          <h3 class="namef">Футбол</h3>
+
+          <div class="field">
+            <img src="./img/ball.svg" alt="" class="ball" />
+          </div>
+        </div>
+        <div class="hrfootball"></div>
+
+        <!-- football
+         9 -->
+        <div class="div2nemain">
+          <h5 class="team">Наша команда</h5>
+          <div class="divimg">
+            <div class="teamimg">
+              <div class="cardDima">
+                <img src="./img/photo_Dimy2.jpg" alt="" class="phDima  B2  B3" />
+                <p class="name">Дмитро</p>
+                <p class="inform">
+                  Зробив рік коли народився, вгадай число , слайдер
+                </p>               
+              </div>
+              <div class="cardMax">
+                <img src="./img/photo_Maksima.jpg" alt="" class="phDima B2" />
+                <p class="name">Максим</p>
+                <p class="inform">Зробив гру камінь-ножниці-папір,3 числа</p>
+              </div>
+              <div class="cardArtur">
+              <img src="./img/photo_Artura.jpg" alt="" class="phDima B2" />
+                <p class="name">Артур</p>
+                <p class="inform">Зробив Google динозавра, футбол</p>
+              </div>
+             
+            </div>
+            <div class="divUl">
+              <ul class="Ulmain">
+             
+              <li class="liDima D1 B1" ></li>
+                <li class="liMax D1 "></li>
+                <li class="liArtur D1" ></li>
+               
+             
+            </ul>
+            </div>
+            <img src="./img/arrowLeft.svg" alt="" class="strl" />
+            <img src="./img/arrowRight.svg" alt="" class="strr" />
+          </div>
+        </div>
+        <div class="hrslider"></div>
+        <!-- 10 -->
+        
+<div class="chooseTheScientist">
+  <h3 class="chooseTheScientistName">Обери вченого/их</h3>
+  <div class="chooseTheScientistDiv">
+     <div class="chooseTheScientistImg">
+         <div class="img1">
+           <div class="Albert"></div>
+           <div class="Isaac"></div>
+           <div class="Galileo"></div>
+           <div class="Marie"></div>
+           <div class="Johannes"></div>
+           <div class="Nicolaus"></div>
+        </div>
+        <div class="img2">
+           <div class="Max"></div>
+           <div class="Katherine"></div>
+           <div class="Ada"></div>
+           <div class="Sarah"></div>
+           <div class="Lise"></div>
+           <div class="Hanna"></div>
+        </div>   
+     </div>
+     <div class="chooseTheScientistQuestions"> 
+        <div class="questions1">                    
+           <button class="q1">Які вчені народилися в 19 ст.</button>
+           <button class="q2">Відсортувати вчених за алфавітом</button>
+           <button class="q3">Відсортувати вчених за кількістю прожитих років</button>
+           <button class="q4">Знайти вченого, який народився найпізніше</button>
+        </div>
+        <div class="questions2">
+           <button class="q5">Знайти рік народження Albert Einshtein</button>
+           <button class="q6">Знайти вчених, прізвища яких починаються на на літеру “С” </button>
+           <button class="q7">Видалити всіх вчених, ім’я яких починається на “А”</button>
+           <button class="q8">Знайти вченого, який прожив найдовше і вченого, який прожив найменше</button>
+        </div>
+  </div>
+     <button class="q9">Знайти вчених, в яких співпадають перші літери імені і прізвища</button>
+  </div>
+</div>
+      </main>
+    </section>
+
+    <footer>
+      <div class="footer-logo"></div>
+      <p class="footer-info">
+        Тел: +38 (123) 456 78 90 <br />
+        E-Mail: codingmagic@gmail.com <br />
+        Facebook: CodingMagic <br />
+        Twitter: CodingMagic <br />
+        Instagram: CodingMagic <br />
+      </p>
+
+      <div class="form-subscribe">
+        <form class="form">
+          <input type="email" placeholder="Ваша ел. адреса..." />
+
+          <button type="submit">Підписатись</button>
+        </form>
+        <p class="form-info">
+          *Підписавшись, Ви зможете ортимувати інформаццію про новинки на сайті
+        </p>
+      </div>
+    </footer>
+
+    <div class="modal-start">
+      <div class="modal-window">
+        <p class="modal-title">
+          Привіт! <br />
+          Ви потрапили на сайт інтерактивних ігор та завдань <br />
+          Надіємось, що вам сподобається і ви отримаєте позитивні емоції!
+          <br />
+          Бажаємо Вам гарно провести час!
+        </p>
+
+        <p class="modal-name">Введіть своє ім’я:</p>
+
+        <form class="">
+          <input  type="text" name="nameUser" placeholder="Ваше ім’я..." class="input-modal" />
+
+          <button type="submit" class="btn-modal">Зберегти</button>
+        </form>
+      </div>
+
+      <i class="icon-close"></i>
+      <i class="icon-bar"></i>
+      <i class="icon-gameBar"></i>
+      <i class="icon-puzzle"></i>
+      <i class="icon-sword"></i>
+    </div>
+
+    <div class="modal-subscribe">
+      <p class="title">Дякую за підписку!</p>
+      <i class="icon-close"></i>
+      <i class="icon-bar"></i>
+      <i class="icon-gameBar"></i>
+      <i class="icon-puzzle"></i>
+      <i class="icon-sword"></i>
+    </div>
+    <script src="./js/task4.js" defer></script>
+    <script src="./js/task9.js" defer></script>
+    <script src="./js/task10.js" defer></script>
+  </body>
+</html>

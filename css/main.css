@@ -1,0 +1,1587 @@
+section {
+   max-width: 1440px;
+   height: 3202px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: url(../img/backgroundLeft.svg),
+      url(../img/backgroundRight.svg);
+   background-position: left, right;
+   background-repeat: no-repeat;
+}
+
+.container {
+   width: 1090px;
+   height: 3202px;
+   border: 2px solid black;
+   background: #ffffff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.container p {
+   font-family: "Montserrat Alternates";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
+   /* identical to box height */
+
+   color: #000000;
+}
+
+hr {
+   width: 536px;
+   margin-top: 36px;
+   margin-bottom: 36px;
+}
+
+main .title-main {
+   font-family: "Montserrat Alternates";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: center;
+   padding-top: 36px;
+}
+
+/* .container > p{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+} */
+
+.fa-search {
+   background: url("../img/icon/icon-search.png") no-repeat;
+}
+
+.inputWidthIcon {
+   position: relative;
+   width: 215px;
+}
+
+.inputWidthIcon input {
+   padding: 10px 45px 10px 10px;
+   border-radius: 20px;
+   width: 100%;
+   height: 35px;
+   background: #d7d7d7;
+}
+
+input::placeholder {
+   font-family: "Montserrat Alternates";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+}
+
+.inputWidthIcon i {
+   position: absolute;
+   right: 0px;
+   width: 35px;
+   height: 35px;
+   z-index: 2;
+}
+
+/* TASK 1 */
+main .card {
+   height: 91px;
+   width: 576px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.card-task {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.h2{
+   font-family: Montserrat Alternates;
+   font-size: 24px;
+  font-weight: 400;
+   /* padding-left: 400px; */
+   position: absolute;
+   top: 36px;
+   left: 352px;
+
+
+}
+.h3{
+   font-family: Montserrat Alternates;
+   font-size: 16px;
+   font-weight: 400px;
+   position: absolute;
+   top: 137px;
+   left: 403px;
+
+}
+.input{
+   width: 215px;
+   height: 35px;
+   border-radius: 20px;
+   position: absolute;
+   top: 193px;
+   left: 257px;
+   background-color: #c8c6c6;
+ 
+}
+ .search{
+   position: absolute;
+   top: 193px;
+   left: 455px;
+   cursor: pointer;
+ }
+ .p1{
+   font-family: Montserrat Alternates;
+   font-size: 12px;
+   font-weight: 400;
+   position: absolute;
+   top: 203px; 
+   left: 621px;
+ }
+ .hr1{
+   border: 1px solid #000000;
+    
+    position: absolute; 
+     top : 71px;
+    left : 277px; 
+
+ }
+/* TASK2 */
+.card:nth-of-type(2) .inputWidthIcon {
+   width: 150px;
+   height: 35px;
+}
+
+.hr2{
+   border: 1px solid #000000;
+   
+    position: absolute;
+    top :230px;
+    left : 277px;
+
+ }
+
+ .search2{
+   position: absolute;
+   top: 92px;
+   left: -150px;
+   cursor: pointer;
+ }
+
+
+ .input2{
+   width: 150px;
+   height: 35px;
+   border-radius: 20px;
+   position: absolute;
+   top: 92px;
+   left: -290px;
+   background-color: #c8c6c6;
+ 
+}
+.h4{
+   font-family:Montserrat Alternates ;
+   font-weight: 400;
+   font-size: 16px;
+   width: 350px;
+   position: absolute;
+   top: 36px;
+   left: -150px;
+}
+
+.p2{
+   font-family:Montserrat Alternates ;
+   font-weight: 400;
+   font-size: 12px;
+   position: absolute;
+   top: 102px;
+   left:32px ;
+   width: 200px;
+}
+
+.hr3{
+   border: 1px solid #000000;
+   height: 15px;
+   width: 224px;
+    position: absolute;
+    top : 500px;
+    left : 30px;
+
+}
+/* TASK3 */
+
+.card:nth-of-type(3) {
+   height: 238px;
+}
+
+.icon-task3 {
+   width: 256px;
+   height: 60px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.icon-task3 i {
+   display: block;
+   width: 60px;
+   height: 60px;
+}
+
+.icon-rock {
+   background: url(/img/icon/rock.png) no-repeat;
+}
+
+.icon-scissors {
+   background: url(/img/icon/scissors.png) no-repeat;
+}
+
+.icon-paper {
+   background: url(/img/icon/paper.png) no-repeat;
+}
+
+.iconWidthTotal {
+   position: relative;
+}
+
+.iconWidthTotal .total {
+   position: absolute;
+   right: -166px;
+   bottom: 0px;
+}
+
+.btn-task3 {
+   padding: 10px 20px;
+   background: #000000;
+   border-radius: 20px;
+
+   color: #ffffff;
+}
+
+
+.stoneScissorsPapier{ 
+     
+ 
+   outline: 0; 
+   font-family: 'Montserrat Alternates'; 
+    
+   height: 238px; 
+   width: 453px; 
+
+   
+
+} 
+
+.stoneScissorsPapierName{ 
+    
+   display: flex; 
+   justify-content: center; 
+
+   color: #000;  
+   font-size: 16px; 
+   font-weight: 400; 
+   line-height: 20px; 
+   letter-spacing: 0em; 
+   text-align: left; 
+} 
+
+.stoneScissorsPapierFunctions{ 
+
+   height: 182px; 
+   width: 453px; 
+   margin-top: 36px; 
+   margin-left: 47px; 
+    
+
+   display: flex; 
+   flex-direction: row; 
+   /* align-items: center; */ 
+   justify-content: space-between; 
+} 
+
+.stoneScissorsPapierGameDiv{ 
+
+   height: 182px; 
+   width: 256px; 
+
+   margin: auto; 
+   display: flex; 
+
+   flex-flow: row wrap; 
+
+   justify-content: center; 
+} 
+
+.stoneScissorsPapierBtnDiv{ 
+    
+   height: 60px; 
+   width: 256px; 
+   box-sizing: border-box; 
+
+   display: flex; 
+   justify-content: space-around; 
+
+
+} 
+
+.stoneScissorsPapierBtnDiv button{ 
+    
+   height: 60px; 
+   width: 60px; 
+   border: none; 
+
+   cursor: pointer; 
+   transition: 0.2s; 
+
+   border-radius: 20px; 
+
+   box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.20); 
+
+} 
+
+.stoneScissorsPapierShowResult{ 
+    
+   height: 35px; 
+   width: 182px; 
+
+   color: white; 
+   font-size: 12px; 
+   font-weight: 400; 
+   line-height: 15px; 
+   letter-spacing: 0em; 
+
+   cursor: pointer; 
+   transition: 0.2s; 
+    
+   text-align: center; 
+   justify-content: baseline; 
+
+   background-color: #000; 
+   border: none; 
+   border-radius: 20px; 
+
+   box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.20); 
+
+   font-family: 'Montserrat Alternates'; 
+
+} 
+
+.stoneScissorsPapierScoreLi{ 
+    
+   list-style-type: none; 
+    
+   height: 60px; 
+   min-width: 93px; 
+   box-sizing: border-box; 
+
+    
+
+    
+
+
+} 
+
+.stoneScissorsPapierFunctions .stoneScissorsPapierResult, .stoneScissorsPapierScoreLi p{ 
+   font-size: 12px; 
+   font-weight: 400; 
+} 
+
+.hr3{ 
+
+   width: 536px; 
+   height: 1px; 
+   background-color: #000; 
+   margin: 36px auto; 
+
+} 
+
+.stoneBtn:active, .scrissorsBtn:active, .papierBtn:active, .stoneScissorsPapierShowResult:active { 
+   transform: translateY(2px); 
+   background-color: #1f1f1f; 
+
+   box-shadow: 1.5px 1.5px 0px 0px rgba(0,0,0,0.40); 
+} 
+
+
+
+/* TASK4 */
+input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    input[type="number"] {
+  appearance: textfield;
+    }
+
+.card:nth-of-type(4) {
+   height: 116px;
+   width: 629px;
+}
+
+.card-calculate {
+   width: 629px;
+   height: 60px;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.card-calculate input {
+   width: 135px;
+   height: 35px;
+   padding: 10px 20px;
+   background: #d7d7d7;
+   box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+   border: none;
+   outline: none;
+}
+
+.calculate-symbols {
+   width: 62px;
+   height: 60px;
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-content: space-between;
+}
+
+.card-calculate p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 25px;
+   height: 25px;
+
+   color: #ffffff;
+   background: #000000;
+   box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+}
+.calculator{
+    
+
+   outline: 0;
+   font-family: 'Montserrat Alternates';
+   
+   height: 116px;
+   width: 629px;
+
+  
+
+}
+
+.calculatorFunctions{
+   height: 60px;
+   width: 629px;
+   
+   margin-top: 36px;
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.calculatorName{
+
+   display: flex;
+   justify-content: center;
+
+   color: #000; 
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+
+
+   
+}
+
+.calculatorNumber1, .calculatorNumber2{
+   
+   height: 35px;
+   width: 135px;
+
+   display: flex;
+   text-align: center;
+   justify-content: baseline;
+
+   color: #7E7E7E;
+   background-color: #D7D7D7;
+   
+   border: none;
+   border-radius: 20px;
+
+   box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.30);
+}
+
+.calculatorOperators {
+   height: 60px;
+   width: 62px;
+
+   display: flex;
+   flex-wrap: wrap;
+   align-content: space-around;
+   justify-content: space-around;
+}
+
+.calculatorAddition, .calculatorDifference, .calculatorProduct, .calculatorDenominator{
+   height: 25px;
+   width: 27px;
+
+   color: white;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 15px;
+   letter-spacing: 0em;
+
+   cursor: pointer;
+   transition: 0.2s;
+   
+   text-align: center;
+   justify-content: baseline;
+
+   background-color: #000;
+   border: none;
+   border-radius: 20px;
+
+   box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.20);
+
+   
+}
+
+.calculatorFunctions .calculatorEqual{
+   
+   height: 25px;
+   width: 27px;
+
+   color: #fff;
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 15px;
+   letter-spacing: 0em;
+
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: #000000;
+   border: none;
+   border-radius: 20px;
+
+   box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.20);
+}
+
+.calculatorFunctions .calculatorResult{
+   height: 35px;
+   width: 118px;
+
+   font-size: 12px;
+   font-weight: 400;
+
+   color: #7E7E7E;
+   background-color: #D7D7D7;
+
+   border: none;
+   border-radius: 20px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hr4{
+
+   width: 536px;
+   height: 1px;
+   background-color: #000;
+   margin: 36px auto;
+
+   
+}
+
+.calculatorAddition:active, .calculatorDifference:active, .calculatorProduct:active, .calculatorDenominator:active{
+   transform: translateY(2px);
+   background-color: #1f1f1f;
+
+   box-shadow: 1.5px 1.5px 0px 0px rgba(0,0,0,0.40);
+
+}
+
+.calculatorNumber1:focus, .calculatorNumber2:focus{
+   transform: translateY(2px);
+
+   color: #717171;
+   background-color: #c2c2c2;
+
+   box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.50);
+
+   
+}
+/* TASK5 */
+
+.card:nth-of-type(5) {
+   width: 392px;
+   height: 91px;
+}
+
+.card:nth-of-type(5) .inputWidthIcon {
+   width: 150px;
+}
+
+.card:nth-of-type(5) .card-task p:nth-of-type(1) {
+   display: inline;
+   width: 100px;
+   height: 0px;
+   border: 1px dashed #000000;
+}
+
+.timeCalculator{
+    
+
+   outline: 0;
+   font-family: 'Montserrat Alternates';
+   
+   height: 91px;
+   width: 392px;
+  
+
+}
+
+
+.timeCalculatorName {
+
+   display: flex;
+   justify-content: center;
+
+   color: #000; 
+   font-size: 16px;
+   font-weight: 400;
+
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+}
+
+.timeCalculatorFunctions{
+
+   margin-top: 36px;
+
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+   align-items: center;
+   
+   height: 35px;
+   width: 392px;
+   
+}
+
+.timeCalculatorSearchDiv{
+
+   height: 35px;
+   width: 150px;
+
+   display: flex;
+   flex-flow: row wrap;
+
+   box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.30);
+   border-radius: 20px;
+
+
+
+}
+
+.timeCalculatorNumber{
+
+   height: 35px;
+   width: 115px;
+
+   font-size: 12px;
+   font-weight: 400;
+
+   display: flex;
+   text-align: center;
+   justify-content: baseline;
+
+   color: #7E7E7E;
+   background-color: #D7D7D7;
+
+   border-radius: 20px 0 0 20px;
+
+   border: none;
+
+
+}
+
+.timeCalculatorButtonSearch{
+
+   height: 35px;
+   width: 35px;
+
+   cursor: pointer;
+
+   background-color: #000;
+   color: #fff;
+
+   border: none;
+   border-radius: 0 20px 20px 0;
+}
+
+.timeCalculatorButtonSearch i{
+   padding: 10px;
+}
+
+.timeCalculatorLine{
+
+   height: 0;
+   width: 100px;
+
+   border: 1px dashed #000000c2;
+}
+
+.timeCalculatorFunctions .timeCalculatorResult{
+
+   font-size: 12px;
+   font-weight: 400;
+
+}
+
+.hr5{
+
+   width: 536px;
+   height: 1px;
+   background-color: #000;
+   margin: 36px auto;
+
+}
+
+
+.timeCalculatorNumber:focus{
+
+   color: #717171;
+   background-color: #c2c2c2;
+
+}
+/* 6 */
+#stopButton{
+   background-color: black;
+   height: 50px;
+   width: 100px;
+   border-radius: 20px;
+   color: white;
+   position: relative;
+   top: 10px;
+  }
+canvas {
+   border: 1px solid black;
+}
+
+ h5{
+   font-family: 
+   Montserrat Alternates;
+   font-size: 16px;
+   font-weight: 400;
+   position: relative;
+   top: 0px;
+ }
+.dinoroad {
+   position: relative;
+   top: 200px;
+   width: 720px;
+}
+
+.Dino {
+   position: absolute; 
+   top: 1230px;
+   left: 400px;
+   width: 90px;
+}
+.hr-dino{
+   width: 536px;
+   height: 1px;
+   background-color: #000;
+   margin-top:200px ;
+}
+
+.cactus {
+   position: absolute; 
+   top: 1240px;
+   width: 40px;
+   left: 1100px;
+   animation: cacTusMov 3s infinite linear;
+}
+
+ @keyframes cacTusMov {
+   0% {
+      left: 1100px;
+   }
+   100%{
+      left: 215px;
+   }
+} 
+
+.jump {
+   animation: jump 2s linear; 
+}
+
+@keyframes jump {
+   0% {
+      top: 1200px;
+   }
+   /* 30% {
+      top: 1190px;
+   } */
+   50% {
+      top: 1090px;
+   }
+   /* 80% {
+      top: 1190px;
+   } */
+   100% {
+      top: 1200px;
+   }
+}
+/* TASK7 */
+.card:nth-of-type(6) {
+   width: 720px;
+   height: 276px;
+}
+
+/* .card:nth-of-type(6) {
+   position: relative;
+} */
+
+.card:nth-of-type(6) .card-football {
+   /* position: relative;
+   width: 720px;
+   height: 220px;
+
+   background: #5abb58;
+   */
+   border: 2px solid #000000;
+   border-radius: 37px;
+   cursor: url(../img/mouse.svg), auto;
+}
+
+.card:nth-of-type(6) .football-ball {
+   position: absolute;
+   background: url(../img/ball.svg) no-repeat;
+   top: 85px;
+   left: 92px;
+   width: 50px;
+   height: 50px;
+   z-index: 2;
+}
+.field {
+   width: 720px;
+   height: 220px;
+    border: solid black;
+    background-color: rgb(45, 185, 45);
+    border-radius: 30px;
+     margin: auto; 
+     margin: 36px auto; 
+     cursor: url('/img/mouse.svg'), auto;
+
+   
+   
+}
+.ball{
+position: relative;
+top: 50px;
+left: 50px;
+}
+
+ 
+
+
+.namef{
+    display: flex;
+    justify-content: center;
+
+    color: #000; 
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat Alternates';
+
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    margin-bottom: 36px;
+
+}
+
+.hrfootball {
+    width: 536px;
+    height: 2px;
+    background-color: #000;
+    margin-top:100px;
+
+}
+
+.football{
+    height: 276px;
+    width: 720px;
+    position: relative
+    ;
+    top: 40px;
+}
+/* TASK8 */
+.card:nth-of-type(7) {
+   width: 481px;
+   height: 142px;
+}
+
+.card:nth-of-type(7) .inputCheck {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+}
+
+.card:nth-of-type(7) .inputCheck input {
+   border: none;
+   outline: none;
+   padding: 10px 20px;
+   width: 135px;
+   height: 35px;
+   background: #d7d7d7;
+   box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.25);
+   border-radius: 20px;
+}
+
+.card:nth-of-type(8) {
+   position: relative;
+   /* border: 2px solid black; */
+   width: 315px;
+   /* height: 305px; */
+   height: 505px;
+}
+
+.card:nth-of-type(8) .slider-img {
+   border: 2px solid black;
+   width: 150px;
+   height: 150px;
+   border-radius: 20px;
+   /* position: relative; */
+   overflow: hidden;
+}
+.card:nth-of-type(8) .slider-line img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+}
+.card:nth-of-type(8) .slider-line {
+   display: flex;
+   position: relative;
+   left: 0;
+   transition: all ease 1s;
+
+   border-radius: 20px;
+}
+.card:nth-of-type(8) .nameStudent {
+   font-family: "Montserrat Alternates";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+}
+
+.card:nth-of-type(8) .infoStudent {
+   display: block;
+   width: 315px;
+   height: 15px;
+
+   font-family: "Montserrat Alternates";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15px;
+}
+
+.slider-img {
+   position: relative;
+}
+
+.card:nth-of-type(8) .arrow {
+   position: absolute;
+   top: 120px;
+}
+
+.card:nth-of-type(8) .left {
+   left: -298px;
+}
+
+.card:nth-of-type(8) .right {
+   left: 558px;
+}
+
+.itc-slider__indicators {
+   display: flex;
+   justify-content: space-between;
+   width: 174px;
+   height: 3px;
+}
+
+.itc-slider__indicator {
+   width: 18px;
+   height: 3px;
+   background: #d9d9d9;
+   border-radius: 3px;
+}
+
+.indicator-active {
+   width: 30px;
+   background: #797979;
+}
+
+/* .itc-slider__indicators {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 15;
+   display: flex;
+   justify-content: center;
+   margin: 0 15%;
+   padding-left: 0;
+   list-style: none;
+}
+
+.itc-slider__indicator {
+   flex: 0 1 auto;
+   box-sizing: content-box;
+   width: 30px;
+   height: 5px;
+   margin-right: 3px;
+   margin-left: 3px;
+   text-indent: -999px;
+   background-color: rgb(255 255 255 / 50%);
+   background-clip: padding-box;
+   border-top: 15px solid transparent;
+   border-bottom: 15px solid transparent;
+   cursor: pointer;
+}
+
+.itc-slider__indicator_active {
+   background-color: rgb(255 255 255 / 90%);
+} */
+/* .calculate-symbols .icon-add{
+        background: url(../img/icon/calculate/add.svg) no-repeat;
+    }
+
+    .calculate-symbols .icon-mul{
+        background: url(../img/icon/calculate/mul.svg) no-repeat;
+    }
+
+    .calculate-symbols .icon-sub{
+        background: url(../img/icon/calculate/sub.svg) no-repeat;
+    }
+
+    .calculate-symbols .icon-divide{
+        background: url(../img/icon/calculate/divide.svg) no-repeat;
+    } */
+/* 
+.task1, .task2{
+    width: 576px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.task1, .task2 p {
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.task2 .inputWidthIcon input{
+    width: 150px;
+}
+.task2 .inputWidthIcon{
+    width: 150px;
+}
+
+.icon-task3{
+    width: 256px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.icon-task3 i{
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.icon-rock{
+    background: url(/img/rock.png) no-repeat;
+}
+
+.icon-scissors{
+    background: url(/img/scissors.png) no-repeat;
+}
+
+.icon-paper{
+    background: url(/img/paper.png) no-repeat;
+}
+
+.task3{
+    margin: 36px 0;
+    
+}
+
+.task3-input{
+    width: 182px;
+    
+    height: 35px;
+    background: #000000;
+    border-radius: 20px;   
+    padding: 10px 20px;
+}
+
+.task3-input::placeholder{
+    font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
+text-align: center;
+} */
+
+
+/* 9 */
+ /* .teamimg{
+   height: 150px;
+   width: 150px;
+   position: relative; */
+   /* overflow: hidden; */
+   /* left: 470px ;
+   top:  2111px;
+   
+} */
+ .divmain{
+   position: relative;
+   height: 264px;
+   width:100%;
+ }
+ .divnemain{
+   position:relative;
+   height: 163px;
+ }
+ .div2nemain{
+   position: relative;
+   width: 100%;
+   height: 490px;
+   
+ }
+
+ .phDima{
+   height: 150px;
+   width: 150px;
+   border-radius: 20%;
+  
+   
+
+  
+ }
+ .strl{
+   width: 50px;
+   height: 100px;
+   position: absolute;
+   left: 92px;
+   top: 150px;
+   cursor: pointer;
+ }
+ .strr{
+   width: 50px;
+   height: 100px;
+   position: absolute;
+   left: 948px;
+   top: 150px;
+   cursor: pointer;
+ }
+ .name{
+ width: 115px;
+margin-left: 40px;
+ font-family: Montserrat Alternates;
+ font-size: 14px;
+ font-weight: 400;
+ }
+
+ .inform{
+   width: 150px;
+   
+   font-family: Montserrat Alternates;
+   font-size: 6px;
+  font-weight: 200;
+ }
+.team{
+   font-family: Montserrat Alternates;
+   font-size: 16px;
+  font-weight: 400;
+   width: 130px;
+   height: 20px;
+   position: absolute;
+   left: 480px;
+   top:60px;
+}
+
+.teamimg{
+   /* border: 2px solid red; */
+    height: 400px;
+    width: 150px;
+    position: relative;
+    left: 470px;
+    top: 100px;
+    overflow: hidden;
+   
+}
+
+.teamimg div{
+   position: absolute;
+   left: 0;
+   width: 150px;
+
+}
+
+.teamimg .cardMax{
+   left: 160px;
+
+}
+.teamimg .cardArtur{
+   left: 320px;
+}
+.teamimg .cardKhchristina{
+   left: 480px;
+}
+
+ .Ulmain .liDima{
+  position: absolute;
+
+
+  
+   top: 370px;
+   left: 500px;
+   /* margin-top:   200px;
+   left: 20px; */
+
+}
+.Ulmain .liArtur{
+   position: absolute;
+ 
+   border-radius: 3px;
+   
+   top: 370px;
+   left: 560px;
+  
+}
+.Ulmain .liMax{
+   position: absolute;
+  
+   border-radius: 3px;
+ 
+   top: 370px;
+   left: 530px;
+}
+/* .Ulmain .liKhristina{
+   position: absolute;
+   border: #aba4a4;
+   background-color: #aba4a4;
+   border-radius: 3px;
+   width: 18px;
+   height: 3px;
+   top: 300px;
+   left: 590px;
+} */
+
+
+/* .Ulmain .liClose{
+    position: relative;
+   border: #797979;
+   background-color: #797979;
+   border-radius: 3px;
+   width: 25px;
+   height: 3px;
+   /* top: 200px;
+   left: 20px; */
+/* 
+   margin-top: -100px;
+   margin-left: 500px;
+
+}  */
+
+.Ulmain{
+   list-style-type: none;
+   height: 3px;
+  
+}
+ .D1{
+    width: 18px;
+    height: 3px;
+    color: #D9D9D9;
+    background-color: #D9D9D9;
+ }
+ .B1{
+   width: 25px;
+    height: 3px;
+   color: #797979;
+    background-color: #797979;
+    border-radius: 3px;
+ }
+
+ 
+.hrslider {
+   width: 536px;
+   height: 2px;
+   background-color: #000;
+   margin-top:-30px;
+
+}
+
+ .chooseTheScientist{
+     
+ 
+     outline: 0;
+     font-family: 'Montserrat Alternates';
+     
+     height: auto;
+     width: 1014px;
+     margin-top: 100px;
+ 
+ }
+ 
+ 
+ .chooseTheScientistName {
+ 
+     display: flex;
+     justify-content: center;
+ 
+     color: #000; 
+     font-size: 16px;
+     font-weight: 400;
+ 
+     line-height: 20px;
+     letter-spacing: 0em;
+     text-align: left;
+ 
+     margin-bottom: 36px;
+ }
+ 
+ .chooseTheScientistDiv{
+     margin: auto;
+ 
+     height: 679px;
+     width: 857px;
+ 
+ 
+ }
+ 
+ 
+ 
+ .chooseTheScientistImg{
+ 
+     
+     margin: auto;
+
+     
+     max-height: 372px;
+     max-width: 557px;
+ 
+     display: flex;
+     justify-content: space-around;
+ 
+     flex-flow: row wrap;
+ 
+     
+ }
+ 
+ .scientistDiv1 {
+     width: 100px;
+     height: 100px;
+     
+     flex-shrink: 0;
+     
+     text-align: center;
+ 
+     box-sizing: border-box;
+ 
+     display: flex;
+     align-items: center;
+     
+ 
+     border-radius: 20px;
+     background: #D9D9D9;
+ 
+ }
+ 
+ .scientistDiv2 {
+     width: 100px;
+     height: 100px;
+     
+     flex-shrink: 0;
+     
+     text-align: center;
+ 
+     padding-left: 19px;
+ 
+     box-sizing: border-box;
+ 
+     display: flex;
+     align-items: center;
+     
+ 
+     border-radius: 20px;
+     background: #D9D9D9;
+ 
+ }
+ .scientistDiv{
+ 
+     width: 100px;
+     height: 100px;
+     
+     flex-shrink: 0;
+     
+     text-align: center;
+ 
+     flex: 1 0 100px;
+     margin: 19.639854127985px;
+ 
+     box-sizing: border-box;
+ 
+     display: flex;
+     align-items: center;
+     
+ 
+     border-radius: 20px;
+     background: #D9D9D9;
+ 
+     
+ 
+ }
+ 
+
+
+ .chooseTheScientistQuestions{
+ 
+     margin-top: 200px;
+     margin-left: 40px;
+ 
+     display: flex;
+     justify-content: center;
+ 
+     
+ 
+     height: 216px;
+     width: 857px;
+ 
+     flex-flow: column wrap;
+ 
+ }
+ 
+ .questions1{
+ 
+     height: 216px;
+ 
+     width: 380px;
+ 
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-start;
+ 
+      flex-flow: row wrap;
+ 
+ }
+ 
+ .questions2{
+ 
+     height: 216px;
+     width: 441px;
+ 
+     display: flex;
+     justify-content: flex-start;
+ 
+     flex-flow: row wrap;
+ }
+ 
+ .q8{
+     text-align: left;
+ 
+ }
+ 
+ .q9{
+ 
+     margin-top: 20px;
+     margin-left: auto;
+     margin-right: auto;
+ 
+     display: flex;
+     justify-content: center;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .questions1 button, .questions2 button, .q9{
+ 
+     margin-bottom: 20px;
+ 
+     min-height: 35px;
+     width: auto;
+     min-width: 227px;
+     padding: 10px 20px;
+ 
+     cursor: pointer;
+ 
+     background-color: #000;
+     color: #fff;
+ 
+     border: none;
+     border-radius: 20px;
+ 
+     font-family: 'Montserrat Alternates';
+ 
+     font-size: 12px;
+     font-weight: 400;
+ 
+     box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.20);
+ 
+ }
+ 
+ .q1:active, .q2:active, .q3:active, .q4:active, .q5:active, .q6:active, .q7:active, .q8:active, .q9:active{
+ 
+     transform: translateY(2px);
+     background-color: #1f1f1f;
+ 
+     box-shadow: 1.5px 1.5px 0px 0px rgba(0,0,0,0.40)}
